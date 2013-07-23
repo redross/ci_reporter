@@ -34,7 +34,7 @@ module CI #:nodoc:
       #
       # with N < 100000, to prevent endless sidestep loops
       MAX_SIDESTEPS     = 100000
-      MAX_FILENAME_SIZE = 240
+      MAX_FILENAME_SIZE = 130
       #
       def filename_for(suite)
         basename = "#{@basename}-#{suite.name.gsub(/[^a-zA-Z0-9]+/, '-')}"
